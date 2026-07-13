@@ -1,5 +1,7 @@
-body{
-    margin:0;
-    background:lightcyan;
-    text-align:center;
-}
+---
+# importing the minima skin and initialization files
+---
+
+@import
+    "minima/skins/{{ site.minima.skin | default: 'classsic'}}",
+    "minima/initialize";
