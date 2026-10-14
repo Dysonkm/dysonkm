@@ -1,1 +1,10 @@
-theme: jekyll-theme-minima # Replace with your exact theme gem name
+# Disable the local gem theme entry
+# theme: minima
+
+# Load it directly from the official source repository instead
+remote_theme: jekyll/minima
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-seo-tag
