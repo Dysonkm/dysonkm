@@ -1,4 +1,4 @@
-ENV['SSL_CERT_FILE'] = 'C:/Ruby40-x64/cacert.pem'
+ENV['SSL_CERT_FILE'] = 'C:/Ruby40-x64/cacert.pem' if Gem.win_platform?
 
 source "https://rubygems.org"
 
