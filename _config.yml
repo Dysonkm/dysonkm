@@ -13,4 +13,5 @@ url: "https://dysonkm.github.io/"
 
 # If your repo is named "my-blog", set this to "/my-blog"
 # If your repo is exactly "username.github.io", leave it as ""
-baseurl: "/dysonkm" 
+baseurl: "" 
+# baseurl: "/dysonkm" 
