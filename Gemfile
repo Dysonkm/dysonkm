@@ -5,6 +5,8 @@ source "https://rubygems.org"
 # The engine behind your site
 gem "jekyll", "~> 4.3.3"
 
+gem 'wdm', '>= 0.1.0'
+
 
 # If you are using Windows, uncomment the line below:
 # gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
