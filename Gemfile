@@ -18,5 +18,5 @@ gem "erb", "~> 6.0"
 
 group :jekyll_plugins do
   gem "jekyll-remote-theme"
-  gem "minima", "~> 2.5" # From our previous fix
+  gem "github-pages"
 end
