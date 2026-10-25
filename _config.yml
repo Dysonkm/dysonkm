@@ -1,11 +1,9 @@
 # Disable the local gem theme entry
 # theme: minima
+remote_theme: "mmistakes/minimal-mistakes@4.28.1"
 
 # Load it directly from the official source repository instead
-remote_theme: pages-themes/cayman@v0.2.0
-
-plugins:
-- jekyll-remote-theme # add this line to the plugins list if you already have one
+plugins: [jekyll-include-cache]
 
 url: "https://dysonkm.github.io/" 
 
